@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary-color: #0D0D0D; /* 313A40   0D0D0D */
+    --primary-color-darker : #313A40;
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1{
+   color: whitesmoke; 
+   text-align: center;
+}
+
+p{
+    color: whitesmoke;
+}
+
+.introducao{
+    display: block;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    width: 80vw;
+    
+}
+
+.txtintroducao{
+    color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+footer{
+    background-color: #313A40;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    
+}
+
+.container{
+    max-width: 1024px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #313A40 (0px 7px 29px 0px);
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 18px;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+form input:focus{
+    outline:  0.5px solid var(--primary-color);
+}
+
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+.containerperfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imgperfil{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+.perfil{
+    border: white 1px solid;
+    
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.divfooter{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.divfooter>img{
+    width: 30px;
+    height: 30px;
+   
+}
+
+.divfooter>div{
+    position: absolute;
+    display: flex;
+    right: 50px;
+    width: 100px;
+    height: 30px;
+}
+
+.divfooter>div>button{
+    margin-right: 10px;
+}
+
+.botaofooter{
+    margin: 0px 10px;
+}
